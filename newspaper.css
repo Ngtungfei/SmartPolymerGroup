@@ -319,7 +319,7 @@ figure img {
 figure figcaption {
   font-style: italic;
   font-size: 14px;
-  text-align: left;
+  text-align: center;
   -webkit-transition: var(--transition-animation);
   transition: var(--transition-animation);
 }
