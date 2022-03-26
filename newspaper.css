@@ -193,7 +193,7 @@ header {
 header h1.news_paper_title a {
   font-family: 'Playfair Display', serif;
   font-weight: 900;
-  font-size: 60px;
+  font-size: 48px;
   text-transform: uppercase;
   display: inline-block;
   cursor: pointer;
@@ -223,7 +223,7 @@ header .news_paper_location {
   }
 }
 /**************************************
-    Content Area of Newspaper
+    Content Area of Newspaper #C62828
 **************************************/
 .headline {
   text-align: center;
@@ -234,9 +234,9 @@ header .news_paper_location {
 }
 .page-section {
   font-weight: 900;
-  font-size: 32px;
-  color: #fff;
-  background-color: #C62828;
+  font-size: 28px;
+  color: --primary-color;
+  /*background-color: #2d7dc8;*/
 }
 
 .headline h2.team_member {
@@ -245,15 +245,15 @@ header .news_paper_location {
 }
 .headline h2.title {
   font-weight: 800;
-  font-size: 24px;
+  font-size: 20px;
 }
 .headline h2.title:hover {
   color: var(--secondary-color);
 }
 .headline h3.writer {
   margin-top: 10px;
-  margin-bottom: 20px;
-  font-weight: 700;
+  margin-bottom: 24px;
+  font-weight: 800;
   font-size: 16px;
 }
 .headline h3.writer:hover {
@@ -318,7 +318,7 @@ figure img {
 }
 figure figcaption {
   font-style: italic;
-  font-size: 12px;
+  font-size: 14px;
   text-align: left;
   -webkit-transition: var(--transition-animation);
   transition: var(--transition-animation);
